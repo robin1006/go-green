@@ -1,0 +1,107 @@
+	body 
+	{
+		padding: 0px;
+		margin: 0px;
+		width:100%;
+		background-color:#FFDEAD;
+	}
+
+	table
+	{	
+		width:100%;
+	}
+	#id1
+	{
+		height:200px;
+		border-style:hidden;
+		border-width:0px;
+		border-collapse:collapse;
+	}
+	#id2
+	{
+		width:16.5%;
+		background-image:url("11.jpg");
+		background-repeat:no-repeat;
+	}
+	#id3
+	{
+		color:#228B22;
+		background-color:#000000;
+		font-family:"ChopinScript";
+		font-size:150;
+		font-weight:bold;
+	}
+	#id4
+	{
+		border-color:#C71585;
+		border-style:solid;
+	}
+	img
+	{
+		width:800px; 
+		height:300px;
+	}
+	#id5
+	{
+		height:70px;
+		border-width:3px;
+		border-style:solid;
+		border-collapse:collapse;
+	}
+	a
+	{
+		text-decoration:none;
+	}
+	a:hover
+	{
+		color:#CC6633;
+		text-decoration:none;
+	}
+	#id6
+	{
+		background-color:#8FBC8F;
+		text-align:center;
+	}
+	.class1
+	{
+		font-family:"Copperplate Gothic"; 
+		font-size:40;
+		font-weight:bold;
+	}	
+
+ul,li {
+	padding:0px; 
+	margin:0px;
+}
+
+.form {
+	width:500px;
+	margin:100px auto;
+	}
+ul.forms li {
+	list-style-type:none;
+	padding-bottom:35px;
+	}
+.text {
+	width:150px; 
+	float:left; 
+	font-family:arial; 
+	font-size:15px; 
+	color: #FF3300; 
+	font-style:normal; 
+	font-weight:bold;
+	}
+.text-field {
+	width:200px; 
+	float:left; 
+	border:3px solid #0066FF; 
+	border-radius:5px; 
+	margin-left:40px;
+	}
+.radio {
+	margin-left:60px;
+	}
+#send {
+	margin-top:20px;
+	margin-left:170px;
+	}

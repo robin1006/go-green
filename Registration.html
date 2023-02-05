@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registration.css" />
+	<link rel="shortcut icon" href="plantsIcon.ico" type="image/x-ico" />
+	<script type=text/Javascript language=Javascript>
+	function f7()
+	{
+		var s7=new String(document.forms[0].t7.value);	
+		if(s7.length!=10 )
+		{
+			alert("Invalid !!!");
+		}
+	}
+	function f4()
+	{
+		var s4=new String(document.forms[0].t4.value);	
+		if(s4.length <8 )
+		{
+			alert("Enter atleast 8 digit password.");
+		}
+	}
+	function f5()
+	{
+		var s4=new String(document.forms[0].t4.value);	
+		var s5=new String(document.forms[0].t5.value);	
+		if(s5.match(s4))
+		{
+			return true;
+		}
+		else
+		{
+			alert(" Passwords do not match");
+		}
+	}
+	function f8()
+	{
+		alert("you are successfully registered");
+	}
+</script>
+</head>
+<body>	
+	<table id=id1>
+	<tr> <td  id=id2> </td>
+	<td id=id3> <center> Go Green </center> </td> </tr>
+	</table>
+	
+	<table  id=id4>
+	<tr><td><marquee scrollamount=10>
+	<img src="1.jpg"/>
+	<img src="00.jpg"/>
+	<img src="60.jpg"/>
+	<img src="88.jpg"/>
+	</marquee></td></tr>
+	</table>
+	
+	<table  id=id5 > <tr id=id6>
+	<td class="class1"> <a href="home.html"> Home </a> </td>
+	<td class="class1"> <a href="about us.html"> About Us </a> </td>
+	<td class="class1"> <a href="gallery.html"> Gallery </a> </td>
+	<td class="class1"> <a href="Login.html"> Log In </a> </td>
+	<td class="class1"> <a href="Registration.html"> Registration </a> </td>
+	</tr> </table>
+	
+	<center><h2><u><font size=8 color=blue>Registration Form</font></u></h2></center>
+	<div class="form"><form>
+	<ul class="forms">
+	<li><div class="text">First Name &raquo;</div><input type="text" required name="t1" class="text-field" onBlur="f1()" /></li>
+	<li><div class="text">Last Name &raquo;</div><input type="text" required name="ln" class="text-field" /></li>
+	<li><div class="text">e-mail id &raquo;</div><input type="email" required name="id" class="text-field" /></li>
+	<li><div class="text">New Password &raquo;</div><input type="password" required name="t4" class="text-field" onBlur="f4()" /></li>
+	<li><div class="text">Re-enter Password &raquo;</div><input type="password" required name="t5" class="text-field" onBlur="f5()"/></li>
+	<li><div class="text">Date of Birth  &raquo;</div><input type="date" required name="dob" class="text-field" /></li>
+	<li><div class="text">Contact no  &raquo;</div><input type="text" required name="t7" class="text-field" onBlur="f7()" /></li>
+	<li><input type="button" value="Submit" id="send" onclick="f8()" /></li>
+	</ul>
+	</form>
+	</div>
+</body>
+</html>

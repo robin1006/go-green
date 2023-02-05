@@ -1,0 +1,165 @@
+body
+{
+	background-color:#99CCCC;
+}
+#table1
+{
+	width:100%;
+	height:200px;
+	border-style:hidden;
+	border-width:0px;
+	border-collapse:collapse;
+	border-color:green;
+}
+#td1
+{
+	width:16.5%;
+	background-image:url(11.jpg);
+	background-repeat:no-repeat;
+}
+#td2
+{
+	color:#228B22;
+	background-color:#000000;
+	font-family:"ChopinScript";
+	font-size:150px;
+	font-weight:bold;
+	text-align:center;
+}
+#table2
+{
+	width:100%;
+} 
+
+#td3
+{
+	border-color:#C71585;
+	border-style:solid;
+}
+img
+{
+	width:800px; 
+	height:300px;
+}
+
+#table3
+{
+	width:100%;
+	height:50px;
+	border:0px;
+	border-style:solid;
+	border-collapse:seperated;
+}
+#tr1
+{
+	background-color:#33CC99;
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	color:#999999;
+	text-decoration:none;
+}
+.td4
+{
+	font-family:"Copperplate Gothic"; 
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+}
+#table4
+{
+	width:100%;
+	border:4px;
+	border-style:groove;
+	border-color:#339900;
+}
+#td4
+{
+	width:300px;
+	height:250px;
+	font-size:30px;
+	text-align:center;
+}
+#td5
+{
+	font-family:"Comic Sans MS";
+	font-size:30px;	
+	color:#CC6600;
+	text-align:center;
+}
+#table5
+{
+	width:100%;
+	height:50px;
+	border:3px;
+	border-style:groove;
+	border-color:#111;
+}
+#td6
+{
+	font-family:"Castellar";
+	font-size:30px;
+	color:#333366;
+	text-align:center;
+}	
+.td6
+{
+	width:300px;
+	height:50px;
+	font-family:"Harlow Solid";
+	font-size:25px;
+	color:#111;
+}
+#table6
+{
+	width:100%;
+	height:50px;
+	border:3px;
+	border-style:groove;
+	border-color:#006666;
+	border-top:none;
+	border-collapse:seperated;
+}
+#table7
+{
+	width:100%;
+	border:5px;
+	border-style:groove;
+	border-color:#006666;
+	border-top:none;
+}
+.td7
+{
+	width:200px;
+	height:50px;
+}
+.img1
+{
+	width:200px;
+	height:200px; 
+}
+.td8
+{
+	font-family:"Viner Hand ITC";	
+	font-size:25px;
+	color:#0000CC;
+	text-align:center;
+}
+.td9
+{
+	font-family:"Viner Hand ITC";	
+	font-size:25px;
+	color:#0000CC;
+	text-align:center;
+}
+#id1
+{
+	font-family:"Curlz MT";
+	font-size:50px;
+	color:#CC33FF;
+	text-align:center;
+}

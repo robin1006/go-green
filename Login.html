@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>LogIn Page</title>
+	<link rel="shortcut icon" href="plantsIcon.ico" type="image/x-ico" />
+	<link rel="stylesheet" type="text/css" href="Login.css"/>
+	<script type=text/Javascript language=Javascript>
+	function f4()
+	{
+		var s4=new String(document.forms[0].t4.value);	
+		if(s4.length <8 )
+		{
+			alert("Enter atleast 8 digit password.");
+		}
+	}
+	</script>
+</head>
+<body >
+	<table id=id1>
+	<tr> <td  id=id2> </td>
+	<td id=id3> <center> Go Green </center> </td> </tr>
+	</table>
+	<table  id=id4>
+	<tr><td><marquee scrollamount=10>
+	<img src="1.jpg"/>
+	<img src="00.jpg"/>
+	<img src="60.jpg"/>
+	<img src="88.jpg"/>
+	</marquee></td></tr>
+	</table>
+	<table  id=id7 > <tr id=id6>
+	<td class="class1"> <a href="home.html"> Home </a> </td>
+	<td class="class1"> <a href="about us.html"> About Us </a> </td>
+	<td class="class1"> <a href="gallery.html"> Gallery </a> </td>
+	<td class="class1"> <a href="Login.html"> Log In </a> </td>
+	<td class="class1"> <a href="Registration.html"> Registration </a> </td>
+	</tr> </table>
+	</br></br>
+	
+	<center>
+	<table id=id5 cellpading=10>
+	<tr> <td> <h1> Login </h1> </td> </tr> 
+	<form method=get action="paymentform.html"> 
+	<tr> <td class="class2"> <ul> <li> Username &raquo <input type=email required size=30> </li> </ul> </td> </tr>
+	<tr> <td class="class2"> <ul> <li> Password &raquo  <input type=password size=30 name=t4 onblur="f4()" required> </li> </ul> </td> </tr>
+	<tr> <td class="class2"> <center> <input type=Submit value=Login> </td> </tr>
+	</form>
+	</table> </br>
+	<form method=GET action="Registration.html">
+	</br>
+	<input type=submit value=Create_new_account />
+	</form>
+	</center>
+</body>
+</html>
